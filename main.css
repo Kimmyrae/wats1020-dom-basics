@@ -3,14 +3,14 @@
 html {
     text-align: center;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-	color: orange;
+    font-family: Lato, Helvetica, sans-serif;
+	color: darkmagenta;
 	font-size: 20px;
 	
 }
 body {
-    background-image: url("cool_cat.jpg");
-	background-size: cover; 
+    background-image: url("arches.png");
+	
 	    
 }
 
@@ -24,7 +24,7 @@ body {
    padding: 20px;
    margin: 10px;
    background: #ff0030;
-   color: #fff;
+   color: darkmagenta;
    font-size: 25px;
    font-weight: bold;
    line-height: 1.3em;
@@ -32,7 +32,7 @@ body {
    border-radius: 10px;
    box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
    text-shadow: -1px -1px #aa3030;
-   font-weight: normal;
+   
 }
 
  .button { background: #ff0000;
@@ -53,9 +53,11 @@ body {
             -webkit-transition: background-color .15s ease-in-out;
             -moz-transition: background-color .15s ease-in-out;
             -o-transition: background-color .15s ease-in-out;
-            text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.4); }
+            text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.4); 
+			 width: 100px;
+
+}
+ 
+ 
         
-        /* Don't use native buttons on iOS */
-        input[type=submit].button, button.button { -webkit-appearance: none; }
-        
-	
+   

@@ -6,7 +6,8 @@
         <title>Fortune Cookie Generator</title>
         <meta name="description" content="This page generates fortune cookie sayings.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href=http://www.dafont.com/type-keys.font>
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="fortune-cookie-generator.js"></script>
     </head>
@@ -16,8 +17,10 @@
 		</div>
        <!-- <p>Use this page to generate fortune cookie sayings.</p> -->
         <div class = "fortune-cookie-saying-wrapper">
+			<div class = "fortune">
             <p id="fortune-cookie-text">Click the button to generate a saying.</p>
         </div>
+		</div>
         <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
 	  <div class = "button">
 	  <button onclick = "generateFortuneCookie()";>
