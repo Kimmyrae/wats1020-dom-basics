@@ -10,8 +10,10 @@ html {
 }
 body {
     background-image: url("arches.png");
-	
-	    
+}
+
+ul {
+	list-style-type: none;	
 }
 
 .fortune-cookie-saying-wrapper {
